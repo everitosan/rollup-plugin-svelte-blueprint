@@ -1,0 +1,24 @@
+{
+  "name": "rollup-plugin-svelte-blueprint",
+  "version": "1.0.0",
+  "description": "Rollup plugin for svelte blueprint library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/everitosan/rollup-plugin-svelte-blueprint.git"
+  },
+  "keywords": [
+    "svelte-blueprint",
+    "rollup",
+    "plugin"
+  ],
+  "author": "everitosan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/everitosan/rollup-plugin-svelte-blueprint/issues"
+  },
+  "homepage": "https://github.com/everitosan/rollup-plugin-svelte-blueprint#readme"
+}
