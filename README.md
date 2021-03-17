@@ -13,7 +13,7 @@ $ npm i -D svelete-blueprint rollup-plugin-svelte-blueprint
 Inside the rollup.config.js you should import the plugin and modify  the **plugins** and **watch** sections.
 
 ```js
-import svelteBlueprint from './svelte-blueprint-rollup'
+import svelteBlueprint from 'rollup-plugin-svelte-blueprint'
 
 ...
 
