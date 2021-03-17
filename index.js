@@ -32,4 +32,4 @@ const svelteBlueprint = (opts={ }) => {
     }
 }
 
-export default svelteBlueprint
+module.exports = svelteBlueprint
