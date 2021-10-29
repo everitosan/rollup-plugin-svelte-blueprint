@@ -4,10 +4,10 @@
 
 ### How to use.
 
-Install svelete-blueprint and rollup-plugin-svelte-blueprint.
+Install svelte-blueprint and rollup-plugin-svelte-blueprint.
 
 ```bash
-$ npm i -D svelete-blueprint rollup-plugin-svelte-blueprint
+$ npm i -D svelte-blueprint rollup-plugin-svelte-blueprint
 ```
 
 Inside the rollup.config.js you should import the plugin and modify  the **plugins** and **watch** sections.
@@ -23,8 +23,9 @@ export default {
   plugins: [
     ...,
     svelteBlueprint({
-      src: 'src/Components'
-      dst: 'src/Docs'
+      src: 'src/Components',
+      dst: 'src/Docs',
+      template: '../Template.svelte' // [optional] Relative to src/Docs/Pages
     }),
     ...
   ],
